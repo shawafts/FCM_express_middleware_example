@@ -1,0 +1,13 @@
+{
+  "name": "fcm_middleware_example",
+  "version": "1.0.0",
+  "description": "Example project exploring FCM integration into existing express application ",
+  "main": "index.js",
+  "author": "Shawaf Mohammed",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase-admin": "^8.13.0",
+    "mongoose": "^5.9.21"
+  }
+}
