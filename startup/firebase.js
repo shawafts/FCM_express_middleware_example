@@ -4,7 +4,7 @@ const firebase = require("firebase-admin");
 const serviceAccount = require("<path-to-service-account-credential.json>");
 const dbUrl = "https://<Your DB>.firebaseio.com"; //You’ll get the DB Url from Firebase Console
 
-exports.initializeFirebaseMessaging = () => {
+module.exports = () => {
   firebase.initializeApp({
     credential: firebase.credential.cert(serviceAccount),
     databaseURL: dbUrl,
